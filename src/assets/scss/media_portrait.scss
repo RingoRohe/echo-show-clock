@@ -1,0 +1,39 @@
+@media (orientation: portrait) {
+    .fullscreen-toggle {
+        font-size: 2.2vh;
+    }
+
+    .date {
+        top: 95vh;
+        right: 10vw;
+        font-size: 4vw;
+    }
+    
+    .time {
+        bottom: 5vh;
+        right: 10vw;
+        font-size: 30vw;
+    }
+
+    .weather {
+        top: 5%;
+        right: 5%;
+        z-index: 10;
+
+        .owi {
+            font-size: 5vh;
+        }
+
+        .temperature {
+            font-size: 8vh;
+        }
+
+        .description {
+            font-size: 2vh;
+        }
+
+        .location {
+            font-size: 2vh;
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "echo_show_clock",
+  "version": "1.0.0",
+  "description": "A simple HTML/CSS/JS Version of the Clock Screensaver from the Amazon Echo Show",
+  "main": "index.html",
+  "scripts": {
+    "cleanup": "rm -rf .cache dist",
+    "dev": "npm run cleanup && parcel src/index.html",
+    "build": "npm run cleanup && parcel build src/index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "Ringo Rohe",
+  "license": "ISC",
+  "devDependencies": {
+    "nice-color-palettes": "^3.0.0",
+    "open-weather-icons": "0.0.8",
+    "openweather-apis": "^4.2.0",
+    "parcel-bundler": "^1.12.4",
+    "reset-css": "^5.0.1",
+    "sass": "^1.25.0"
+  },
+  "dependencies": {
+    "parcel-plugin-static-files-copy": "^2.3.1"
+  }
+}
